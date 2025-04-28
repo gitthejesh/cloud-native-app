@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Cloud Native App!');
+  res.send('🚀 Hello from Updated Cloud Native App!');
 });
 
 app.listen(port, () => {
